@@ -7,10 +7,112 @@
       content="width=device-width, initial-scale=1,
   maximum-scale=5"
     />
-    <title>challenge3</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <title>challenge6</title>
+    <link rel="stylesheet" href="./styles/css/style.css" />
+    <link rel="stylesheet" href="./styles/css/main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap"
+      rel="stylesheet"
+    /> -->
   </head>
   <body>
-    <h1>challenge3</h1>
+    <div class="container">
+      <h2 class="heading">Checkout</h2>
+      <section id="checkout">
+        <div class="colstack checkout-colstack">
+          <section id="checkout-summary">
+            <div class="colstack checkout-summary-stack">
+              <div class="stack checkout-summary-item">
+                <div class="imgdiv">
+                  <img src="assets/photo1.png" />
+                </div>
+                <div class="colstack item-info">
+                  <div>
+                    <p class="item-info-name">Vintage Backbag</p>
+                    <div style="margin-top: 10px">
+                      <p class="item-info-current-price">$54.99</p>
+                      <p class="strike item-info-price">$94.99</p>
+                    </div>
+                  </div>
+                  <div class="counter">
+                    <img src="assets/icons/add.svg" />
+                    <div>1</div>
+                    <img src="assets/icons/minus.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="stack checkout-summary-item">
+                <div class="imgdiv">
+                  <img src="assets/photo2.png" />
+                </div>
+                <div class="colstack item-info">
+                  <div>
+                    <p class="item-info-name">Levi Shoes</p>
+                    <div style="margin-top: 10px">
+                      <p class="item-info-current-price">$74.99</p>
+                      <p class="strike item-info-price">$124.99</p>
+                    </div>
+                  </div>
+                  <div class="counter">
+                    <img src="assets/icons/add.svg" />
+                    <div>1</div>
+                    <img src="assets/icons/minus.svg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="checkout-form">
+            <form>
+              <h2>Contact Information</h2>
+              <label>Email</label><br />
+              <input class="message-icon" placeholder="Enter your email..." />
+              <label>Phone</label><br />
+              <input class="telephone-icon" placeholder="Enter your phone..." />
+
+              <h2>Shipping Address</h2>
+              <label>Full Name</label><br />
+              <input
+                class="profile-icon"
+                placeholder="Enter your full name..."
+              />
+              <label>Address</label><br />
+              <input class="home-icon" placeholder="Enter your address..." />
+              <label>City</label><br />
+              <input class="building-icon" placeholder="Enter your city..." />
+
+              <div class="stack space-between">
+                <div class="halfwidth">
+                  <label>Country</label><br />
+                  <input
+                    class="building-icon"
+                    placeholder="Enter your country..."
+                  />
+                </div>
+                <div class="halfwidth">
+                  <label>Postal Code</label><br />
+                  <input
+                    class="postal-icon"
+                    placeholder="Enter your postal code..."
+                  />
+                </div>
+              </div>
+              <div>
+                <input type="checkbox" class="checkbox" />Save this information
+                for next time
+              </div>
+              <button class="submit">Continue</button>
+            </form>
+          </section>
+        </div>
+      </section>
+    </div>
+    <footer>created by Dhawal - devChallenges.io</footer>
   </body>
 </html>
